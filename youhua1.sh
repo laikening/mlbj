@@ -1,2 +1,1 @@
-/sbin/ifdown ppp0
-&& /sbin/ifup ppp0
+/sbin/ifdown ppp0 && /sbin/ifup ppp0
