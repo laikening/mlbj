@@ -1,7 +1,2 @@
-systemctl stop xray
-&& rm -f /etc/systemd/system/xray.service 
-&& cd /etc/systemd/system/
-&& wget https://danted.oss-us-west-1.aliyuncs.com/xray.service 
-&& systemctl daemon-reload 
-&& systemctl enable xray 
-&& systemctl restart xray
+/sbin/ifdown ppp0
+&& /sbin/ifup ppp0
