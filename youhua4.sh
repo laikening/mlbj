@@ -1,2 +1,2 @@
-systemctl stop xray && rm -f /etc/systemd/system/xray.service && cd /etc/systemd/system/ && wget -q https://danted.oss-us-west-1.aliyuncs.com/xray.service  && systemctl daemon-reload  && systemctl enable xray && systemctl restart xray 
+curl http://10.110.90.5/changeip/changeip.aspx && /root/cf-ddns.sh
 echo OKKKKKKKKKK
